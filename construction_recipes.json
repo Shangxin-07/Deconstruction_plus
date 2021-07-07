@@ -25,7 +25,7 @@
         "group": "remove_concrete_floor",
         "//": "Breaks through the concrete pad, leaving a shallow pit",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 6 ] ],
         "time": "120 m",
         "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
         "qualities": [ 
@@ -48,7 +48,7 @@
         "group": "remove_concrete_floor",
         "//": "Breaks through the concrete pad, leaving a shallow pit",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 6 ] ],
         "time": "120 m",
         "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
         "qualities": [ 
@@ -71,7 +71,7 @@
         "group": "remove_concrete_floor",
         "//": "Breaks through the concrete pad, leaving a shallow pit",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 6 ] ],
         "time": "120 m",
         "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
         "qualities": [ 
@@ -94,7 +94,7 @@
         "group": "remove_concrete_floor",
         "//": "Breaks through the concrete pad, leaving a shallow pit",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 6 ] ],
         "time": "120 m",
         "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
         "qualities": [ 
@@ -117,7 +117,7 @@
         "group": "remove_reinforced_concrete_floor",
         "//": "Breaks through the reinforced concrete pad, leaving a deep pit",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 7 ] ],
         "time": "180 m",
         "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
         "qualities": [ 
@@ -140,7 +140,7 @@
         "group": "remove_linoleum_tiles",
         "//": "Removes white linoleum tiles from the floor, leaving bare concrete",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 2 ] ],
         "time": "10 m",
         "qualities": [ 
             [ { "id": "HAMMER", "level": 2 } ], 
@@ -158,7 +158,7 @@
         "group": "remove_linoleum_tiles",
         "//": "Removes gray linoleum tiles from the floor, leaving bare concrete",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 2 ] ],
         "time": "10 m",
         "qualities": [ 
             [ { "id": "HAMMER", "level": 2 } ], 
@@ -233,7 +233,7 @@
         "group": "remove_concrete_wall",
         "//": "Cuts a segment of concrete wall out very neatly, and then breaks it apart for disposal.",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 6 ] ],
         "time": "120 m",
         "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
         "qualities": [ 
@@ -252,7 +252,7 @@
         "group": "remove_wall",
         "//": "Cuts a segment of wall out very neatly, and then breaks it apart for disposal.",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 4 ] ],
         "time": "90 m",
         "qualities": [ 
             [ { "id": "HAMMER", "level": 2 } ], 
@@ -277,7 +277,7 @@
         "group": "remove_wall",
         "//": "Cuts a segment of wall out very neatly, and then breaks it apart for disposal.",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 4 ] ],
         "time": "90 m",
         "qualities": [ 
             [ { "id": "HAMMER", "level": 2 } ], 
@@ -302,7 +302,7 @@
         "group": "remove_wall",
         "//": "Cuts a segment of wall out very neatly, and then breaks it apart for disposal.",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 4 ] ],
         "time": "90 m",
         "qualities": [ 
             [ { "id": "HAMMER", "level": 2 } ], 
@@ -327,7 +327,7 @@
         "group": "remove_wall",
         "//": "Cuts a segment of wall out very neatly, and then breaks it apart for disposal.",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 4 ] ],
         "time": "90 m",
         "qualities": [ 
             [ { "id": "HAMMER", "level": 2 } ], 
@@ -352,7 +352,7 @@
         "group": "remove_wall",
         "//": "Cuts a segment of wall out very neatly, and then breaks it apart for disposal.",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 4 ] ],
         "time": "90 m",
         "qualities": [ 
             [ { "id": "HAMMER", "level": 2 } ], 
@@ -377,7 +377,7 @@
         "group": "remove_wall",
         "//": "Cuts a segment of wall out very neatly, and then breaks it apart for disposal.",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 4 ] ],
         "time": "90 m",
         "qualities": [ 
             [ { "id": "HAMMER", "level": 2 } ], 
@@ -402,7 +402,7 @@
         "group": "remove_wall",
         "//": "Cuts a segment of wall out very neatly, and then breaks it apart for disposal.",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 4 ] ],
         "time": "90 m",
         "qualities": [ 
             [ { "id": "HAMMER", "level": 2 } ], 
@@ -427,7 +427,7 @@
         "group": "remove_brick_wall",
         "//": "Cuts a segment of brick wall out very neatly, and then breaks it apart for disposal.",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 6 ] ],
         "time": "120 m",
         "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
         "qualities": [ 
@@ -448,7 +448,7 @@
         "group": "remove_brick_wall",
         "//": "Cuts a segment of adobe brick wall out very neatly, and then breaks it apart for disposal.",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 6 ] ],
         "time": "120 m",
         "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
         "qualities": [ 
@@ -469,7 +469,7 @@
         "group": "remove_wooden_wall",
         "//": "Cuts a segment of wooden wall out very neatly, and then breaks it apart for disposal.",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 5 ] ],
         "time": "90 m",
         "qualities": [ 
             [ { "id": "HAMMER", "level": 2 } ], 
@@ -490,7 +490,7 @@
         "group": "remove_wooden_wall",
         "//": "Cuts a segment of log wall out very neatly, and then breaks it apart for disposal.",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 5 ] ],
         "time": "90 m",
         "qualities": [ 
             [ { "id": "HAMMER", "level": 2 } ], 
@@ -509,7 +509,7 @@
         "group": "remove_wall",
         "//": "Cuts a segment of wall out very neatly, and then breaks it apart for disposal.",
         "category": "CONSTRUCT",
-        "required_skills": [ [ "fabrication", 3 ] ],
+        "required_skills": [ [ "fabrication", 4 ] ],
         "time": "120 m",
         "qualities": [ 
             [ { "id": "HAMMER", "level": 2 } ], 
