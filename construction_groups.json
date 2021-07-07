@@ -1,0 +1,47 @@
+[
+    {
+        "type": "construction_group",
+        "id": "remove_empty_window",
+        "name": "Remove an empty window frame"
+    },
+    {
+        "type": "construction_group",
+        "id": "remove_linoleum_tiles",
+        "name": "Remove linoleum tiles"
+    },
+    {
+        "type": "construction_group",
+        "id": "remove_reinforced_concrete_floor",
+        "name": "Remove a reinforced concrete floor"
+    },
+    {
+        "type": "construction_group",
+        "id": "remove_concrete_floor",
+        "name": "Remove a concrete floor"
+    },
+    {
+        "type": "construction_group",
+        "id": "remove_floor",
+        "name": "Remove a wooden floor"
+    },
+    {
+        "type": "construction_group",
+        "id": "remove_concrete_wall",
+        "name": "Remove a concrete wall"
+    },
+    {
+        "type": "construction_group",
+        "id": "remove_brick_wall",
+        "name": "Remove a brick wall"
+    },
+    {
+        "type": "construction_group",
+        "id": "remove_wooden_wall",
+        "name": "Remove a wooden wall"
+    },
+    {
+        "type": "construction_group",
+        "id": "remove_wall",
+        "name": "Remove a wall"
+    }
+]
