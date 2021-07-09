@@ -43,5 +43,16 @@
         "type": "construction_group",
         "id": "remove_wall",
         "name": "Remove a wall"
+    },
+    {
+        "type": "construction_group",
+        "id": "remove_roadway",
+        "name": "Remove a segment of the road/sidewalk"
+    },
+    {
+        "type": "construction_group",
+        "id": "remove_metal_door",
+        "name": "Remove metal door"
     }
+
 ]

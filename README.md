@@ -13,6 +13,8 @@ base needs, as such, most recipes require more tools to deconstruct than you'd u
 - wooden walls
 - brick walls
 - concrete walls
+- roads / pavement / zebra crossings
+- metal doors 
 
 ## Adds this powertool
 - Masonry Saw
