@@ -538,10 +538,7 @@
         "time": "120 m",
         "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
         "qualities": [ 
-            [ { "id": "HAMMER", "level": 2 } ], 
-            [ { "id": "CHISEL", "level": 2 } ], 
             [ { "id": "SAW_MASONRY", "level": 4 } ], 
-            [ { "id": "GRIND", "level": 2 } ], 
             [ { "id": "PRY", "level": 3 } ] ],
         "byproducts": [ 
             { "item": "rock", "count": [ 10, 30 ] }, 
@@ -560,10 +557,7 @@
         "time": "120 m",
         "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
         "qualities": [ 
-            [ { "id": "HAMMER", "level": 2 } ], 
-            [ { "id": "CHISEL", "level": 2 } ], 
             [ { "id": "SAW_MASONRY", "level": 4 } ], 
-            [ { "id": "GRIND", "level": 2 } ], 
             [ { "id": "PRY", "level": 3 } ] ],
         "byproducts": [ 
             { "item": "rock", "count": [ 10, 30 ] }, 
@@ -582,10 +576,7 @@
         "time": "120 m",
         "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
         "qualities": [ 
-            [ { "id": "HAMMER", "level": 2 } ], 
-            [ { "id": "CHISEL", "level": 2 } ], 
             [ { "id": "SAW_MASONRY", "level": 4 } ], 
-            [ { "id": "GRIND", "level": 2 } ], 
             [ { "id": "PRY", "level": 3 } ] ],
         "byproducts": [ 
             { "item": "rock", "count": [ 10, 30 ] }, 
@@ -604,10 +595,7 @@
         "time": "120 m",
         "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
         "qualities": [ 
-            [ { "id": "HAMMER", "level": 2 } ], 
-            [ { "id": "CHISEL", "level": 2 } ], 
             [ { "id": "SAW_MASONRY", "level": 4 } ], 
-            [ { "id": "GRIND", "level": 2 } ], 
             [ { "id": "PRY", "level": 3 } ] ],
         "byproducts": [ 
             { "item": "rock", "count": [ 10, 30 ] }, 
