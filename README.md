@@ -25,6 +25,6 @@ DELETE the following files:
 - construction_groups.json
 - modinfo.json
 
-RENAME the files with .BN in the filename by removing .BN.
-- construction_recipes.json.BN to construction_recipes.json
-- modinfo.json.BN to modinfo.json 
+RENAME the files with .BN in the filename by replacing .BN with .json.
+- construction_recipes.BN -> construction_recipes.json
+- modinfo.BN -> modinfo.json 
