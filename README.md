@@ -16,3 +16,15 @@ base needs, as such, most recipes require more tools to deconstruct than you'd u
 
 ## Adds this powertool
 - Masonry Saw
+
+## For Cataclysm Bright Nights
+Download the mod as per normal, then... 
+
+DELETE the following files:
+- construction_recipes.json
+- construction_groups.json
+- modinfo.json
+
+RENAME the files with .BN in the filename by removing .BN.
+- construction_recipes.json.BN to construction_recipes.json
+- modinfo.json.BN to modinfo.json 
