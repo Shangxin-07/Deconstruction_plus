@@ -554,7 +554,7 @@
         "//": "Breaks through the pavement, leaving a shallow pit",
         "category": "CONSTRUCT",
         "required_skills": [ [ "fabrication", 6 ] ],
-        "time": "120 m",
+        "time": "30 m",
         "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
         "qualities": [ 
             [ { "id": "SAW_MASONRY", "level": 4 } ], 
@@ -573,7 +573,7 @@
         "//": "Breaks through the pavement, leaving a shallow pit",
         "category": "CONSTRUCT",
         "required_skills": [ [ "fabrication", 6 ] ],
-        "time": "120 m",
+        "time": "30 m",
         "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
         "qualities": [ 
             [ { "id": "SAW_MASONRY", "level": 4 } ], 
@@ -592,7 +592,7 @@
         "//": "Breaks through the pavement, leaving a shallow pit",
         "category": "CONSTRUCT",
         "required_skills": [ [ "fabrication", 6 ] ],
-        "time": "120 m",
+        "time": "30 m",
         "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
         "qualities": [ 
             [ { "id": "SAW_MASONRY", "level": 4 } ], 
