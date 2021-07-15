@@ -896,8 +896,8 @@
             [ { "id": "GRIND", "level": 2 } ], 
             [ { "id": "PRY", "level": 3 } ] ],
         "byproducts": [ 
-            [ { "item": "rebar", "count": [ 8, 16 ] } ],
-            [ { "item": "rock", "count": [ 5, 10 ] } ] ],
+            { "item": "rebar", "count": [ 8, 16 ] }, 
+            { "item": "rock", "count": [ 5, 10 ] } ],
         "pre_terrain": "t_column_halfway",
         "post_terrain": "t_thconc_floor"
       },
@@ -918,8 +918,8 @@
             [ { "id": "GRIND", "level": 2 } ], 
             [ { "id": "PRY", "level": 3 } ] ],
         "byproducts": [ 
-            [ { "item": "rebar", "count": [ 8, 16 ] } ],
-            [ { "item": "rock", "count": [ 15, 30 ] } ] ],
+            { "item": "rebar", "count": [ 8, 16 ] },
+            { "item": "rock", "count": [ 15, 30 ] } ],
         "pre_terrain": "t_column",
         "post_terrain": "t_thconc_floor"
       }
