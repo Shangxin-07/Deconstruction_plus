@@ -504,5 +504,139 @@
             { "item": "cable", "charges": [ 0, 200 ] } ],
         "pre_terrain": "t_wall",
         "post_terrain": "t_floor"
+    },
+    {
+        "type": "construction",
+        "id": "constr_remove_sidewalk",
+        "description": "Remove a segment of the road/sidewalk",
+        "//": "Breaks through the sidewalk, leaving a shallow pit",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 6 ] ],
+        "time": "120 m",
+        "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
+        "qualities": [ 
+            [ { "id": "SAW_MASONRY", "level": 4 } ], 
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "rock", "count": [ 10, 30 ] }, 
+            { "item": "pebble", "count": [ 50, 200 ] }, 
+            { "item": "material_sand", "charges": [ 50, 400 ] } ],
+        "pre_terrain": "t_sidewalk",
+        "post_terrain": "t_pit_shallow"
+    },
+    {
+        "type": "construction",
+        "id": "constr_remove_pavement",
+        "description": "Remove a segment of the road/sidewalk",
+        "//": "Breaks through the pavement, leaving a shallow pit",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 6 ] ],
+        "time": "30 m",
+        "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
+        "qualities": [ 
+            [ { "id": "SAW_MASONRY", "level": 4 } ], 
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "rock", "count": [ 10, 30 ] }, 
+            { "item": "pebble", "count": [ 50, 200 ] }, 
+            { "item": "material_sand", "charges": [ 50, 400 ] } ],
+        "pre_terrain": "t_pavement",
+        "post_terrain": "t_pit_shallow"
+    },
+    {
+        "type": "construction",
+        "id": "constr_remove_pavement_y",
+        "description": "Remove a segment of the road/sidewalk",
+        "//": "Breaks through the pavement, leaving a shallow pit",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 6 ] ],
+        "time": "30 m",
+        "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
+        "qualities": [ 
+            [ { "id": "SAW_MASONRY", "level": 4 } ], 
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "rock", "count": [ 10, 30 ] }, 
+            { "item": "pebble", "count": [ 50, 200 ] }, 
+            { "item": "material_sand", "charges": [ 50, 400 ] } ],
+        "pre_terrain": "t_pavement_y",
+        "post_terrain": "t_pit_shallow"
+    },
+    {
+        "type": "construction",
+        "id": "constr_remove_zebra",
+        "description": "Remove a segment of the road/sidewalk",
+        "//": "Breaks through the pavement, leaving a shallow pit",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 6 ] ],
+        "time": "30 m",
+        "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ] ],
+        "qualities": [ 
+            [ { "id": "SAW_MASONRY", "level": 4 } ], 
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "rock", "count": [ 10, 30 ] }, 
+            { "item": "pebble", "count": [ 50, 200 ] }, 
+            { "item": "material_sand", "charges": [ 50, 400 ] } ],
+        "pre_terrain": "t_zebra",
+        "post_terrain": "t_pit_shallow"
+    },
+    {
+        "type": "construction",
+        "id": "constr_remove_metal_door_frame",
+        "description": "Remove metal door",
+        "//": "Removes a metal door frame",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 2 ] ],
+        "time": "15 m",
+        "qualities": [ 
+            [ { "id": "SAW_M", "level": 1 } ], 
+            [ { "id": "GRIND", "level": 2 } ], 
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "scrap", "count": [ 15, 30 ] }, 
+            { "item": "sheet_metal", "count": [ 4, 8 ] }, 
+            { "item": "hinge", "count": [ 0, 1 ] } ],
+        "pre_terrain": "t_mdoor_frame",
+        "post_terrain": "t_floor"
+    },
+    {
+        "type": "construction",
+        "id": "constr_remove_metal_door",
+        "description": "Remove metal door",
+        "//": "Removes a metal door",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 4 ] ],
+        "time": "10 m",
+        "qualities": [ 
+            [ { "id": "SAW_M", "level": 1 } ], 
+            [ { "id": "GRIND", "level": 2 } ], 
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "scrap", "count": [ 15, 30 ] }, 
+            { "item": "sheet_metal", "count": [ 4, 8 ] }, 
+            { "item": "hinge", "count": [ 0, 1 ] } ],
+        "pre_terrain": "t_door_metal_c",
+        "post_terrain": "t_mdoor_frame"
+    },
+    {
+        "type": "construction",
+        "id": "constr_remove_metal_door_peephole",
+        "description": "Remove metal door",
+        "//": "Removes a metal door with a peephole",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 4 ] ],
+        "time": "10 m",
+        "qualities": [ 
+            [ { "id": "SAW_M", "level": 1 } ], 
+            [ { "id": "GRIND", "level": 2 } ],
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "scrap", "count": [ 15, 30 ] }, 
+            { "item": "sheet_metal", "count": [ 4, 8 ] },
+            { "item": "peephole", "count": [ 0, 1 ] },
+            { "item": "hinge", "count": [ 0, 1 ] } ],
+        "pre_terrain": "t_door_metal_c_peep",
+        "post_terrain": "t_mdoor_frame"
     }
 ]
