@@ -24,6 +24,7 @@ floor tile is more or less preserved.
 - rebar cages
 - concrete columns
 - half complete walls
+- glass walls
 
 ## Adds this powertool
 - Masonry Saw (and an easy recipe to create it)
