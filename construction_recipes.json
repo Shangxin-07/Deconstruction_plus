@@ -21,6 +21,26 @@
     },
     {
         "type": "construction",
+        "id": "constr_remove_metal_window_empty",
+        "group": "remove_empty_window",
+        "//": "Removes an empty metal window frame, leaving bare floor",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 3 ] ],
+        "time": "60 m",
+        "qualities": [ 
+            [ { "id": "HAMMER", "level": 2 } ],
+            [ { "id": "CHISEL", "level": 2 } ], 
+            [ { "id": "SAW_MASONRY", "level": 2 } ], 
+            [ { "id": "GRIND", "level": 2 } ], 
+            [ { "id": "PRY", "level": 2 } ] ],
+        "byproducts": [ 
+            { "item": "spike", "count": [ 3, 6 ] }, 
+            { "item": "scrap", "charges": [6, 8] } ],
+        "pre_terrain": "t_m_frame",
+        "post_terrain": "t_floor"
+    },
+    {
+        "type": "construction",
         "id": "constr_remove_concrete_floor",
         "group": "remove_concrete_floor",
         "//": "Breaks through the concrete pad, leaving a shallow pit",
@@ -844,6 +864,25 @@
     },
     {
         "type": "construction",
+        "id": "constr_remove_metal_door_locked",
+        "group": "remove_metal_door",
+        "//": "Removes a metal door",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 4 ] ],
+        "time": "10 m",
+        "qualities": [ 
+            [ { "id": "SAW_M", "level": 1 } ], 
+            [ { "id": "GRIND", "level": 2 } ],
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "scrap", "count": [ 15, 30 ] }, 
+            { "item": "sheet_metal", "count": [ 4, 8 ] },
+            { "item": "hinge", "count": [ 0, 1 ] } ],
+        "pre_terrain": "t_door_metal_locked",
+        "post_terrain": "t_mdoor_frame"
+    },
+    {
+        "type": "construction",
         "id": "constr_remove_reb_cage",
         "group": "remove_rebar_cage",
         "//": "Remove a Rebar cage",
@@ -858,8 +897,8 @@
             { "item": "rebar", "count": [ 8, 16 ] } ],
         "pre_terrain": "t_reb_cage",
         "post_terrain": "t_pit"
-      },
-      {
+    },
+    {
         "type": "construction",
         "id": "constr_remove_reb_cage_floor",
         "group": "remove_rebar_cage",
@@ -878,8 +917,8 @@
             { "item": "scrap", "count": [ 5, 15 ] } ],
         "pre_terrain": "t_ov_reb_cage",
         "post_terrain": "t_pit"
-      },
-      {
+    },
+    {
         "type": "construction",
         "id": "constr_remove_column_halfway",
         "group": "remove_concrete_column",
@@ -900,8 +939,8 @@
             { "item": "rock", "count": [ 5, 10 ] } ],
         "pre_terrain": "t_column_halfway",
         "post_terrain": "t_thconc_floor"
-      },
-      {
+    },
+    {
         "type": "construction",
         "id": "constr_remove_column",
         "group": "remove_concrete_column",
@@ -922,5 +961,41 @@
             { "item": "rock", "count": [ 15, 30 ] } ],
         "pre_terrain": "t_column",
         "post_terrain": "t_thconc_floor"
-      }
+    },
+    {
+        "type": "construction",
+        "id": "constr_remove_reinforced_glass",
+        "group": "remove_glass_wall",
+        "//": "Removes a reinforced glass wall",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 4 ] ],
+        "time": "10 m",
+        "qualities": [ 
+            [ { "id": "HAMMER", "level": 2 } ], 
+            [ { "id": "CHISEL", "level": 2 } ], 
+            [ { "id": "GRIND", "level": 2 } ],
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "reinforced_glass_sheet", "count": [ 1, 1 ] } ],
+        "pre_terrain": "t_reinforced_glass",
+        "post_terrain": "t_m_frame"
+    },
+    {
+        "type": "construction",
+        "id": "constr_remove_glass_wall",
+        "group": "remove_glass_wall",
+        "//": "Removes a glass wall",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 4 ] ],
+        "time": "10 m",
+        "qualities": [ 
+            [ { "id": "HAMMER", "level": 2 } ], 
+            [ { "id": "CHISEL", "level": 2 } ], 
+            [ { "id": "GRIND", "level": 2 } ],
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "glass_sheet", "count": [ 1, 1 ] } ],
+        "pre_terrain": "t_wall_glass",
+        "post_terrain": "t_floor"
+    }
 ]

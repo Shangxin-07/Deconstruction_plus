@@ -68,5 +68,10 @@
         "type": "construction_group",
         "id": "remove_rebar_cage",
         "name": "Remove rebar cage"
+    },
+    {
+        "type": "construction_group",
+        "id": "remove_glass_wall",
+        "name": "Remove glass wall"
     }
 ]
