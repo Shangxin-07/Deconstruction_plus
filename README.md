@@ -25,6 +25,8 @@ floor tile is more or less preserved.
 - concrete columns
 - half complete walls
 - glass walls
+- glass doors
+
 
 ## Adds this powertool
 - Masonry Saw (and an easy recipe to create it)

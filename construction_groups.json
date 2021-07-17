@@ -73,5 +73,10 @@
         "type": "construction_group",
         "id": "remove_glass_wall",
         "name": "Remove glass wall"
-    }
+    },
+    {
+        "type": "construction_group",
+        "id": "remove_glass_door",
+        "name": "Remove glass door"
+    }    
 ]

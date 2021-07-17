@@ -883,6 +883,25 @@
     },
     {
         "type": "construction",
+        "id": "constr_remove_metal_door_lab",
+        "group": "remove_metal_door",
+        "//": "Removes a metal door",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 4 ] ],
+        "time": "10 m",
+        "qualities": [ 
+            [ { "id": "SAW_M", "level": 1 } ], 
+            [ { "id": "GRIND", "level": 2 } ],
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "scrap", "count": [ 15, 30 ] }, 
+            { "item": "sheet_metal", "count": [ 4, 8 ] },
+            { "item": "hinge", "count": [ 0, 1 ] } ],
+        "pre_terrain": "t_door_metal_lab_c",
+        "post_terrain": "t_mdoor_frame"
+    },
+    {
+        "type": "construction",
         "id": "constr_remove_reb_cage",
         "group": "remove_rebar_cage",
         "//": "Remove a Rebar cage",
@@ -996,6 +1015,78 @@
         "byproducts": [ 
             { "item": "glass_sheet", "count": [ 1, 1 ] } ],
         "pre_terrain": "t_wall_glass",
+        "post_terrain": "t_floor"
+    },
+    {
+        "type": "construction",
+        "id": "constr_remove_glass_door",
+        "group": "remove_glass_door",
+        "//": "Removes a glass door",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 4 ] ],
+        "time": "10 m",
+        "qualities": [ 
+            [ { "id": "HAMMER", "level": 2 } ], 
+            [ { "id": "CHISEL", "level": 2 } ], 
+            [ { "id": "GRIND", "level": 2 } ],
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "glass_sheet", "count": [ 1, 2 ] } ],
+        "pre_terrain": "t_door_glass_c",
+        "post_terrain": "t_floor"
+    },
+    {
+        "type": "construction",
+        "id": "constr_remove_glass_frosted_door",
+        "group": "remove_glass_door",
+        "//": "Removes a frosted glass door",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 4 ] ],
+        "time": "10 m",
+        "qualities": [ 
+            [ { "id": "HAMMER", "level": 2 } ], 
+            [ { "id": "CHISEL", "level": 2 } ], 
+            [ { "id": "GRIND", "level": 2 } ],
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "glass_sheet", "count": [ 1, 2 ] } ],
+        "pre_terrain": "t_door_glass_frosted_c",
+        "post_terrain": "t_floor"
+    },
+    {
+        "type": "construction",
+        "id": "constr_remove_glass_door_lab",
+        "group": "remove_glass_door",
+        "//": "Removes a lab glass door",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 4 ] ],
+        "time": "10 m",
+        "qualities": [ 
+            [ { "id": "HAMMER", "level": 2 } ], 
+            [ { "id": "CHISEL", "level": 2 } ], 
+            [ { "id": "GRIND", "level": 2 } ],
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "glass_sheet", "count": [ 1, 2 ] } ],
+        "pre_terrain": "t_door_glass_lab_c",
+        "post_terrain": "t_floor"
+    },
+    {
+        "type": "construction",
+        "id": "constr_remove_glass_frosted_door_lab",
+        "group": "remove_glass_door",
+        "//": "Removes a frosted lab glass door",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 4 ] ],
+        "time": "10 m",
+        "qualities": [ 
+            [ { "id": "HAMMER", "level": 2 } ], 
+            [ { "id": "CHISEL", "level": 2 } ], 
+            [ { "id": "GRIND", "level": 2 } ],
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "glass_sheet", "count": [ 1, 2 ] } ],
+        "pre_terrain": "t_door_glass_frosted_lab_c",
         "post_terrain": "t_floor"
     }
 ]
