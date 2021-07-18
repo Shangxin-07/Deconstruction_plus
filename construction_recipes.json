@@ -1088,5 +1088,41 @@
             { "item": "glass_sheet", "count": [ 1, 2 ] } ],
         "pre_terrain": "t_door_glass_frosted_lab_c",
         "post_terrain": "t_floor"
+    },
+    {
+        "type": "construction",
+        "id": "constr_remove_reinforced_glass_door",
+        "group": "remove_glass_door",
+        "//": "Removes a reinforced glass door",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 4 ] ],
+        "time": "10 m",
+        "qualities": [ 
+            [ { "id": "HAMMER", "level": 2 } ], 
+            [ { "id": "CHISEL", "level": 2 } ], 
+            [ { "id": "GRIND", "level": 2 } ],
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "reinforced_glass_sheet", "count": [ 1, 2 ] } ],
+        "pre_terrain": "t_reinforced_door_glass_c",
+        "post_terrain": "t_floor"
+    },
+    {
+        "type": "construction",
+        "id": "constr_remove_reinforced_glass_door_lab",
+        "group": "remove_glass_door",
+        "//": "Removes a reinforced lab glass door",
+        "category": "CONSTRUCT",
+        "required_skills": [ [ "fabrication", 4 ] ],
+        "time": "10 m",
+        "qualities": [ 
+            [ { "id": "HAMMER", "level": 2 } ], 
+            [ { "id": "CHISEL", "level": 2 } ], 
+            [ { "id": "GRIND", "level": 2 } ],
+            [ { "id": "PRY", "level": 3 } ] ],
+        "byproducts": [ 
+            { "item": "reinforced_glass_sheet", "count": [ 1, 2 ] } ],
+        "pre_terrain": "t_reinforced_door_glass_lab_c",
+        "post_terrain": "t_floor"
     }
 ]
