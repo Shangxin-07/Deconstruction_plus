@@ -31,7 +31,7 @@ floor tile is more or less preserved.
 ## Adds this powertool
 - Masonry Saw (and an easy recipe to create it)
 
-## For Cataclysm Bright Nights
+## For Cataclysm Bright Nights / CDDA 0.E
 Download the mod as per normal, then... 
 
 DELETE the following files:
