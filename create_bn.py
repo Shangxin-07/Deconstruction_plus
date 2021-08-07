@@ -28,25 +28,25 @@ with open(bn_modinfo_file, "w") as data_mfile:
     json.dump(modinfo, data_mfile, indent=4)
 
 for recipe in recipes:
-    con_group = recipe["group"]
-    del recipe["group"]
-    for group in groups:
-        if (con_group == group["id"]):
-            description = group["name"]
-        recipe["description"] = description
+    if ("group" in recipe):
+        con_group = recipe["group"]
+        del recipe["group"]
+        for group in groups:
+            if (con_group == group["id"]):
+                description = group["name"]
+            recipe["description"] = description
 
 for recipe in recipes:
-    kill_recipe = 0
-    for remove_me in not_in_bn:
-        if (recipe["pre_terrain"] == remove_me):
-            kill_recipe = 1
-    if (kill_recipe):
-        recipes.remove(recipe)
-            
-
+    if ("description" in recipe):
+        kill_recipe = 0
+        for remove_me in not_in_bn:
+            if (recipe["pre_terrain"] == remove_me):
+                kill_recipe = 1
+        if (kill_recipe):
+            recipes.remove(recipe)
 
 with open(bn_recipe_file, "w") as data_rfile:
-    json.dump(recipes, data_rfile, indent=4)
+    json.dump(recipes, data_rfile, indent=2)
 
 #print ( json.dumps(modinfo, indent=4) )
 #print ( json.dumps(groups, indent=4) )
