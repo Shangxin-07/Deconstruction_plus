@@ -1,11 +1,11 @@
 [
-    {
-      "type": "MOD_INFO",
-      "id": "Deconstruction_plus",
-      "name": "Deconstruction Plus",
-      "authors": [ "Shangxin" ],
-      "description": "Adds more deconstruction options to the construction menu and adds more powertools",
-      "category": "buildings",
-      "dependencies": [ "dda" ]
-    }
+  {
+    "type": "MOD_INFO",
+    "id": "Deconstruction_plus",
+    "name": "Deconstruction Plus",
+    "authors": [ "Shangxin" ],
+    "description": "Adds more deconstruction options to the construction menu and adds more powertools",
+    "category": "buildings",
+    "dependencies": [ "dda" ]
+  }
 ]
