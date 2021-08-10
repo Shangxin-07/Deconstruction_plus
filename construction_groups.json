@@ -11,8 +11,8 @@
   },
   {
     "type": "construction_group",
-    "id": "remove_objects",
-    "name": "Remove various objects"
+    "id": "advanced_object_deconstruction",
+    "name": "Advanced Object Deconstruction"
   },
   {
     "type": "construction_group",

@@ -811,12 +811,12 @@
   {
     "type": "construction",
     "id": "constr_remove_object_fireplace",
-    "group": "remove_objects",
+    "group": "advanced_object_deconstruction",
     "//": "Breaks a fireplace apart giving you back most of the rocks used in its construction.",
     "category": "CONSTRUCT",
     "required_skills": [ [ "fabrication", 2 ] ],
     "time": "90 m",
-    "using": [ [ "linoleum_removal_standard", 1 ] ],
+    "using": [ [ "object_deconstruction_advanced", 1 ] ],
     "byproducts": [ { "item": "rock", "count": [ 35, 40 ] } ],
     "pre_terrain": "f_fireplace",
     "post_terrain": "f_null"
