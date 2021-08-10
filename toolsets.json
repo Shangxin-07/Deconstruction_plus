@@ -50,9 +50,9 @@
     "tools": [ [ [ "angle_grinder", 200 ], [ "oxy_torch", 20 ] ] ]
   },
   {
-    "id": "object_removal_standard",
+    "id": "object_deconstruction_advanced",
     "type": "requirement",
-    "//": "Tools for removing a tougher then normal object",
+    "//": "Tools for doing advanced deconstruction",
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "CHISEL", "level": 2 },
