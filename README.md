@@ -19,6 +19,7 @@ floor tile is more or less preserved.
 - wooden walls
 - brick walls
 - concrete walls
+- stone walls
 - roads / pavement / zebra crossings
 - metal doors
 - rebar cages
@@ -26,6 +27,7 @@ floor tile is more or less preserved.
 - half complete walls
 - glass walls
 - glass doors
+- fireplaces
 
 
 ## Adds this powertool
