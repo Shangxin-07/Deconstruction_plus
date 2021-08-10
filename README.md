@@ -12,21 +12,21 @@ floor tile is more or less preserved.
 
 ## Currently allows deconstruction of (most)
 - empty window frames
-- floors
 - linoleum tiles
+- floors
 - concrete floors
 - walls
 - wooden walls
 - brick walls
 - concrete walls
 - stone walls
+- glass walls
+- half complete walls
 - roads / pavement / zebra crossings
-- metal doors
 - rebar cages
 - concrete columns
-- half complete walls
-- glass walls
 - glass doors
+- metal doors
 - fireplaces
 
 
