@@ -51,7 +51,7 @@ with open(bn_recipe_file, "w") as data_rfile:
 #print ( json.dumps(modinfo, indent=4) )
 #print ( json.dumps(groups, indent=4) )
 #print ( json.dumps(recipes, indent=4) )
-#find . \( -name "*.BN" -o -name "*.json" \) -print0 | xargs -0 -L 1 ./json_formatter.cgi
+print ( "find . \( -name \"*.BN\" -o -name \"*.json\" \) -print0 | xargs -0 -L 1 ./json_formatter.cgi" )
 
 
 quit()

@@ -18,7 +18,6 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "gasoline": 450 }, "watertight": true, "rigid": true } ],
     "charges_per_use": 5,
     "techniques": [ "SWEEP" ],
-    "qualities": [ [ "SAW_MASONRY", 4 ] ],
     "use_action": [ "CHAINSAW_OFF" ],
     "flags": [ "NONCONDUCTIVE", "FRAGILE_MELEE" ]
   },
@@ -34,7 +33,7 @@
     "charges_per_use": 0,
     "revert_to": "masonrysaw_off",
     "techniques": [ "SWEEP" ],
-    "qualities": [ [ "SAW_MASONRY", 4 ], [ "AXE", 3 ], [ "BUTCHER", -100 ] ],
+    "qualities": [ [ "AXE", 3 ], [ "BUTCHER", -100 ] ],
     "use_action": [ "CIRCSAW_ON" ],
     "flags": [ "MESSY", "TRADER_AVOID", "NONCONDUCTIVE", "POWERED", "FRAGILE_MELEE" ]
   },
