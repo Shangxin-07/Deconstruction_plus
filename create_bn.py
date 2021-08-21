@@ -51,7 +51,11 @@ with open(bn_recipe_file, "w") as data_rfile:
 #print ( json.dumps(modinfo, indent=4) )
 #print ( json.dumps(groups, indent=4) )
 #print ( json.dumps(recipes, indent=4) )
-print ( "find . \( -name \"*.BN\" -o -name \"*.json\" \) -print0 | xargs -0 -L 1 ./json_formatter.cgi" )
+print ( "To lint the files so that they look nice, do the following:" )
+print ( "find . \( -name \"*.BN\" -o -name \"*.json\" \) -print0 | xargs -0 -L 1 ./json_formatter.cgi\n" )
+print ( "If you're running BN you want to do this:")
+print ( "rm construction_groups.json construction_recipes.json tools.json modinfo.json" )
+print ( "mv construction_groups.BN construction_groups.json; mv modinfo.BN modinfo.json; mv tools.BN tools.json\n" )
 
 
 quit()
