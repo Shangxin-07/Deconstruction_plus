@@ -55,7 +55,7 @@ print ( "To lint the files so that they look nice, do the following:" )
 print ( "find . \( -name \"*.BN\" -o -name \"*.json\" \) -print0 | xargs -0 -L 1 ./json_formatter.cgi\n" )
 print ( "If you're running BN you want to do this:")
 print ( "rm construction_groups.json construction_recipes.json tools.json modinfo.json" )
-print ( "mv construction_groups.BN construction_groups.json; mv modinfo.BN modinfo.json; mv tools.BN tools.json\n" )
+print ( "mv construction_recipes.BN construction_recipes.json; mv modinfo.BN modinfo.json; mv tools.BN tools.json\n" )
 
 
 quit()
