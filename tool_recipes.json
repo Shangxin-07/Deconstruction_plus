@@ -9,6 +9,8 @@
     "difficulty": 5,
     "skills_required": [ [ "mechanics", 5 ], [ "electronics", 3 ] ],
     "time": "4 h",
+    "reversible": true,
+    "decomp_learn": 4,
     "autolearn": [ [ "mechanics", 5 ], [ "electronics", 3 ] ],
     "book_learn": [
       [ "manual_mechanics", 3 ],
@@ -47,6 +49,8 @@
     "difficulty": 5,
     "skills_required": [ [ "mechanics", 5 ], [ "electronics", 3 ] ],
     "time": "3 h",
+    "reversible": true,
+    "decomp_learn": 4,
     "autolearn": [ [ "mechanics", 5 ], [ "electronics", 3 ] ],
     "book_learn": [
       [ "manual_mechanics", 3 ],
