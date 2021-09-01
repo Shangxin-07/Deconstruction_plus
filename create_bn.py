@@ -5,6 +5,7 @@ import json
 
 group_file = "construction_groups"
 recipe_file = "construction_recipes"
+slow_recipe_file = "construction_recipes_slow"
 modinfo_file = "modinfo"
 not_in_bn = ["t_thconc_r", "t_zebra"]
 
@@ -13,6 +14,9 @@ with open("./" + group_file + ".json", "r") as read_gfile:
 
 with open("./" + recipe_file + ".json", "r") as read_rfile:
     recipes = json.load(read_rfile)
+
+with open("./" + slow_recipe_file + ".json", "r") as read_rfile:
+    recipes += json.load(read_rfile)
 
 with open("./" + modinfo_file + ".json", "r") as read_mfile:
     modinfo = json.load(read_mfile)
