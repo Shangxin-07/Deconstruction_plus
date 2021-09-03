@@ -4,6 +4,7 @@
     "type": "requirement",
     "//": "Tools for removing concrete -- drill required to create holes in a complete wall",
     "qualities": [
+      { "id": "GLARE", "level": 2 },
       { "id": "HAMMER", "level": 2 },
       { "id": "CHISEL", "level": 2 },
       { "id": "PRY", "level": 3 },
@@ -13,13 +14,13 @@
       [ [ "jackhammer", 140 ], [ "elec_jackhammer", 7000 ] ],
       [ [ "masonrysaw_off", 100 ] ],
       [ [ "cordless_drill", 200 ] ],
-      [ [ "angle_grinder", 200 ] ]
+      [ [ "angle_grinder", 200 ], [ "oxy_torch", 20 ] ]
     ]
   },
   {
     "id": "slow_concrete_removal_standard",
     "type": "requirement",
-    "//": "Tools for slowly removing concrete -- drill & masonry saw still required :P",
+    "//": "Tools for slowly removing concrete",
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "CHISEL", "level": 2 },
@@ -29,9 +30,7 @@
       { "id": "FILE", "level": 2 }
     ],
     "tools": [
-      [ [ "pickaxe", -1 ], [ "hammer_sledge", -1 ], [ "hammer_sledge_heavy", -1 ] ],
-      [ [ "masonrysaw_off", 100 ] ],
-      [ [ "cordless_drill", 200 ] ]
+      [ [ "pickaxe", -1 ], [ "hammer_sledge", -1 ], [ "hammer_sledge_heavy", -1 ] ]
     ]
   },
   {
@@ -39,6 +38,7 @@
     "type": "requirement",
     "//": "Tools for removing a normal wall / floor / glass",
     "qualities": [
+      { "id": "GLARE", "level": 2 },
       { "id": "HAMMER", "level": 2 },
       { "id": "CHISEL", "level": 2 },
       { "id": "PRY", "level": 3 },
@@ -53,6 +53,8 @@
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "CHISEL", "level": 2 },
+      { "id": "SAW_M", "level": 2 },
+      { "id": "SCREW", "level": 2 },
       { "id": "PRY", "level": 3 },
       { "id": "DIG", "level": 3 },
       { "id": "FILE", "level": 2 }
@@ -75,8 +77,8 @@
     "id": "slow_road_removal_standard",
     "type": "requirement",
     "//": "Tools for removing road / sidewalk",
-    "qualities": [ { "id": "PRY", "level": 3 } ],
-    "tools": [ [ [ "pickaxe", -1 ] ], [ [ "masonrysaw_off", 100 ] ] ]
+    "qualities": [ { "id": "PRY", "level": 3 }, { "id": "HAMMER", "level": 2 }, { "id": "CHISEL", "level": 2 } ],
+    "tools": [ [ "pickaxe", -1 ] ]
   },
   {
     "id": "metal_removal_standard",
@@ -90,6 +92,8 @@
     "type": "requirement",
     "//": "Tools for removing metal / rebar",
     "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "CHISEL", "level": 2 },
       { "id": "SAW_M", "level": 2 },
       { "id": "SCREW", "level": 2 },
       { "id": "FILE", "level": 2 },
