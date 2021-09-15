@@ -78,7 +78,7 @@
     "type": "requirement",
     "//": "Tools for removing road / sidewalk",
     "qualities": [ { "id": "PRY", "level": 3 }, { "id": "HAMMER", "level": 2 }, { "id": "CHISEL", "level": 2 } ],
-    "tools": [ [ "pickaxe", -1 ] ]
+    "tools": [ [ [ "pickaxe", -1 ] ] ]
   },
   {
     "id": "metal_removal_standard",
